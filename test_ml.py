@@ -1,9 +1,10 @@
 import pytest
 # TODO: add necessary import
 import pandas as pd
+import numpy as np
 from ml.data import process_data
 from ml.model import train_model, compute_model_metrics, inference
-from train_model import data, cat_features
+from train_model import data, cat_features, model, X_test
 
 # TODO: implement the first test. Change the function name and input as needed
 def test_size_of_data_vs_processed():
